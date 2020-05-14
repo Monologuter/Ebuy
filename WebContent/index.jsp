@@ -37,48 +37,48 @@
 					</c:forEach>
 				</ul>
 			</div>
-			<div class="side">
+<%--			<div class="side">--%>
 
-				<div class="news-list">
-					<h4>最新公告</h4>
-					<ul>
-						<c:forEach items="${noticeList }" var="notice">
-							<li><a href="notice_showNotice.action?noticeId=${notice.id }">${notice.title }</a></li>
-						</c:forEach>
-					</ul>
-				</div>
-				<div class="spacer"></div>
-				<div class="news-list">
-					<h4>新闻动态</h4>
-					<ul>
-						<c:forEach items="${newsList }" var="news">
-							<li><a href="news_showNews.action?newsId=${news.id }">${news.title }</a></li>
-						</c:forEach>
-					</ul>
-				</div>
-			</div>
-			<div class="spacer clear"></div>
+<%--				<div class="news-list">--%>
+<%--					<h4>最新公告</h4>--%>
+<%--					<ul>--%>
+<%--						<c:forEach items="${noticeList }" var="notice">--%>
+<%--							<li><a href="notice_showNotice.action?noticeId=${notice.id }">${notice.title }</a></li>--%>
+<%--						</c:forEach>--%>
+<%--					</ul>--%>
+<%--				</div>--%>
+<%--				<div class="spacer"></div>--%>
+<%--				<div class="news-list">--%>
+<%--					<h4>新闻动态</h4>--%>
+<%--					<ul>--%>
+<%--						<c:forEach items="${newsList }" var="news">--%>
+<%--							<li><a href="news_showNews.action?newsId=${news.id }">${news.title }</a></li>--%>
+<%--						</c:forEach>--%>
+<%--					</ul>--%>
+<%--				</div>--%>
+<%--			</div>--%>
+<%--			<div class="spacer clear"></div>--%>
 			
-			<div class="hot">
-				<h2>热卖推荐</h2>
-				<ul class="product clearfix">
-					<c:forEach items="${hotProductList }" var="hProduct">
-						<li>
-							<dl>
-								<dt>
-									<a href="product_showProduct.action?productId=${hProduct.id }" target="_blank"><img src="${hProduct.proPic }"/></a>
-								</dt>
-								<dd class="title">
-									<a href="product_showProduct.action?productId=${hProduct.id }" target="_blank">${hProduct.name }</a>
-								</dd>
-								<dd class="price">
-									￥${hProduct.price }
-								</dd>
-							</dl>
-						</li>
-					</c:forEach>
-				</ul>
-			</div>
+<%--			<div class="hot">--%>
+<%--				<h2>热卖推荐</h2>--%>
+<%--				<ul class="product clearfix">--%>
+<%--					<c:forEach items="${hotProductList }" var="hProduct">--%>
+<%--						<li>--%>
+<%--							<dl>--%>
+<%--								<dt>--%>
+<%--									<a href="product_showProduct.action?productId=${hProduct.id }" target="_blank"><img src="${hProduct.proPic }"/></a>--%>
+<%--								</dt>--%>
+<%--								<dd class="title">--%>
+<%--									<a href="product_showProduct.action?productId=${hProduct.id }" target="_blank">${hProduct.name }</a>--%>
+<%--								</dd>--%>
+<%--								<dd class="price">--%>
+<%--									￥${hProduct.price }--%>
+<%--								</dd>--%>
+<%--							</dl>--%>
+<%--						</li>--%>
+<%--					</c:forEach>--%>
+<%--				</ul>--%>
+<%--			</div>--%>
 			
 		</div>
 		<div class="clear"></div>

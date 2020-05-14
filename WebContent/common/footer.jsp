@@ -6,8 +6,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 </head>
-<body>
-Copyright &copy; 2020 天狗超市 All Rights Reserved.
-		http://www.educy.com
-</body>
+<%--<body>--%>
+<%--Copyright &copy; 2020 天狗超市 All Rights Reserved.--%>
+<%--		http://www.educy.com--%>
+<%--</body>--%>
 </html>

@@ -21,18 +21,18 @@
 </div>
 
 <div class="spacer"></div>
-<div class="last-view">
-	<h2>最近浏览</h2>
-	<dl class="clearfix">
-	 <c:forEach var="p" items="${currentBrowse }">
-	 	<dt>
-	 		<img src="${p.proPic }" class="imgs" style="height: 50px;width: 50px;">
-	 	</dt>
-	 	<dd>
-	 		<a href="product_showProduct.action?productId=${p.id }" target="_blank">${p.name }</a>
-	 	</dd>
-	 </c:forEach>
-	</dl>
-</div>
+<%--<div class="last-view">--%>
+<%--	<h2>最近浏览</h2>--%>
+<%--	<dl class="clearfix">--%>
+<%--	 <c:forEach var="p" items="${currentBrowse }">--%>
+<%--	 	<dt>--%>
+<%--	 		<img src="${p.proPic }" class="imgs" style="height: 50px;width: 50px;">--%>
+<%--	 	</dt>--%>
+<%--	 	<dd>--%>
+<%--	 		<a href="product_showProduct.action?productId=${p.id }" target="_blank">${p.name }</a>--%>
+<%--	 	</dd>--%>
+<%--	 </c:forEach>--%>
+<%--	</dl>--%>
+<%--</div>--%>
 </body>
 </html>

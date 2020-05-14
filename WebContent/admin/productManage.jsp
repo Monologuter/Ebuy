@@ -251,8 +251,8 @@
 			<a href="javascript:openProductAddDialog()" class="easyui-linkbutton" iconCls="icon-add" plain="true">添加</a>
 			<a href="javascript:openProductModifyDialog()" class="easyui-linkbutton" iconCls="icon-edit" plain="true">修改</a>
 			<a href="javascript:deleteProduct()" class="easyui-linkbutton" iconCls="icon-remove" plain="true">删除</a>
-			<a href="javascript:setProductHot()" class="easyui-linkbutton" iconCls="icon-hot" plain="true">设置为热卖</a>
-			<a href="javascript:setProductSpecialPrice()" class="easyui-linkbutton" iconCls="icon-special" plain="true">设置为特价</a>
+<%--			<a href="javascript:setProductHot()" class="easyui-linkbutton" iconCls="icon-hot" plain="true">设置为热卖</a>--%>
+<%--			<a href="javascript:setProductSpecialPrice()" class="easyui-linkbutton" iconCls="icon-special" plain="true">设置为特价</a>--%>
 		</div>
 		<div>
 			&nbsp;商品名称：&nbsp;<input type="text" id="s_productName" size="20" onkeydown="if(event.keyCode==13) searchProduct()"/>

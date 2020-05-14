@@ -27,9 +27,9 @@
 </script>
 </head>
 <body>
-<div id="header" class="wrap">
-<div id="logo"><img src="${pageContext.request.contextPath}/images/logo.gif" /></div>
-</div>
+<%--<div id="header" class="wrap">--%>
+<%--<div id="logo"><img src="${pageContext.request.contextPath}/images/logo.gif" /></div>--%>
+<%--</div>--%>
 <div id="childNav">
 
 	<div class="wrap">
@@ -76,9 +76,9 @@
 	</div>
 	<div class="clear"></div>
 </div>
-<div id="footer">
-	Copyright &copy; 2020 天狗超市 All Rights Reserved.
-		http://www.educy.com
-</div>
+<%--<div id="footer">--%>
+<%--	Copyright &copy; 2020 天狗超市 All Rights Reserved.--%>
+<%--		http://www.educy.com--%>
+<%--</div>--%>
 </body>
 </html>

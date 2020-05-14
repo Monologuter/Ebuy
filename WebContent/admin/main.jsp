@@ -95,9 +95,9 @@
 <div region="north" style="height: 78px;background-color: #E0ECFF">
 	<table style="padding: 5px" width="100%">
 		<tr>
-			<td width="50%">
-				<img src="${pageContext.request.contextPath}/images/bglogo.png"/>
-			</td>
+<%--			<td width="50%">--%>
+<%--				<img src="${pageContext.request.contextPath}/images/bglogo.png"/>--%>
+<%--			</td>--%>
 			<td valign="bottom" align="right" width="50%">
 				<font size="3">&nbsp;&nbsp;<strong>欢迎：</strong>${currentUser.userName }</font>
 			</td>
@@ -106,9 +106,9 @@
 </div>
 <div region="center">
 	<div class="easyui-tabs" fit="true" border="false" id="tabs">
-		<div title="首页" data-options="iconCls:'icon-home'">
-			<div align="center" style="padding-top: 100px"><font color="red" size="10">欢迎使用天狗超市后台管理系统</font></div>
-		</div>
+<%--		<div title="首页" data-options="iconCls:'icon-home'">--%>
+<%--			<div align="center" style="padding-top: 100px"><font color="red" size="10">欢迎使用天狗超市后台管理系统</font></div>--%>
+<%--		</div>--%>
 	</div>
 </div>
 <div region="west" style="width: 200px" title="导航菜单" split="true">
@@ -125,15 +125,15 @@
 		<div title="订单管理"  data-options="iconCls:'icon-order'" style="padding:10px">
 			<a href="javascript:openTab('订单管理','orderManage.jsp','icon-order')" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-manage'" style="width: 150px;">管理订单</a>
 		</div>
-		<div title="留言管理" data-options="iconCls:'icon-comment'" style="padding:10px">
-			<a href="javascript:openTab('留言管理','commentManage.jsp','icon-comment')" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-manage'" style="width: 150px;">管理留言</a>
-		</div>
-		<div title="公告管理"  data-options="iconCls:'icon-notice'" style="padding:10px">
-			<a href="javascript:openTab('公告管理','noticeManage.jsp','icon-notice')" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-manage'" style="width: 150px;">管理公告</a>
-		</div>
-		<div title="新闻管理"  data-options="iconCls:'icon-news'" style="padding:10px">
-			<a href="javascript:openTab('新闻管理','newsManage.jsp','icon-news')" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-manage'" style="width: 150px;">管理新闻</a>
-		</div>
+<%--		<div title="留言管理" data-options="iconCls:'icon-comment'" style="padding:10px">--%>
+<%--			<a href="javascript:openTab('留言管理','commentManage.jsp','icon-comment')" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-manage'" style="width: 150px;">管理留言</a>--%>
+<%--		</div>--%>
+<%--		<div title="公告管理"  data-options="iconCls:'icon-notice'" style="padding:10px">--%>
+<%--			<a href="javascript:openTab('公告管理','noticeManage.jsp','icon-notice')" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-manage'" style="width: 150px;">管理公告</a>--%>
+<%--		</div>--%>
+<%--		<div title="新闻管理"  data-options="iconCls:'icon-news'" style="padding:10px">--%>
+<%--			<a href="javascript:openTab('新闻管理','newsManage.jsp','icon-news')" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-manage'" style="width: 150px;">管理新闻</a>--%>
+<%--		</div>--%>
 		<div title="标签管理"  data-options="iconCls:'icon-tag'" style="padding:10px">
 			<a href="javascript:openTab('标签管理','tagManage.jsp','icon-tag')" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-manage'" style="width: 150px;">管理标签</a>
 		</div>
@@ -144,9 +144,9 @@
 		</div>
 	</div>
 </div>
-<div region="south" style="height: 25px;padding: 5px;" align="center">
-	版权所有 2014 Java知识分享网
-</div>
+<%--<div region="south" style="height: 25px;padding: 5px;" align="center">--%>
+<%--	版权所有 2020 monologue--%>
+<%--</div>--%>
 
 
 <div id="dlg" class="easyui-dialog" style="width: 400px;height:220px;padding: 10px 20px"

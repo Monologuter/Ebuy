@@ -27,9 +27,9 @@
 </head>
 <body>
 
-<div id="logo">
-	<img src="images/logo.gif" />
-</div>
+<%--<div id="logo">--%>
+<%--	<img src="images/logo.gif" />--%>
+<%--</div>--%>
 <div class="help">
 	<c:choose>
 		<c:when test="${not empty currentUser }">
